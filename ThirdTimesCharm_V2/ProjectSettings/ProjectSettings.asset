@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 6f85a19dba628b3488c7b6ac842f157f
+  productGUID: 08df323923c248e49b4e1068ae8fedd9
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -754,10 +754,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 0f739457-dd5e-4a34-a008-08ebe2348b83
+  cloudProjectId: 7cbcbf57-14cb-492d-a570-72249f768a2f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ThirdTimesCharm_V2
+  projectName: ThirdTimesCharm_V2 2024-11-13_22-09-44
   organizationId: pukkis
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
