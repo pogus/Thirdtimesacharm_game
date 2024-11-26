@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 0
-  m_FollowOffset: {x: 0, y: 5, z: -1}
+  m_FollowOffset: {x: 0, y: 5, z: -10}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -379,7 +379,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c3b36827a4547f0439c3e695b107ee35,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 59.3
+      value: 58.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3b36827a4547f0439c3e695b107ee35,
         type: 3}
@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 1748248390}
   - component: {fileID: 1748248392}
   - component: {fileID: 1748248391}
+  - component: {fileID: 1748248393}
   m_Layer: 0
   m_Name: vfx_electricity
   m_TagString: Untagged
@@ -517,7 +518,7 @@ Transform:
   m_GameObject: {fileID: 1748248389}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.607, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -589,13 +590,22 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: 32
         m_Name: rate
-        m_Overridden: 0
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array:
       - m_Value: {x: 0, y: 0, z: -1.5}
         m_Name: Cone_transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 0.5, z: 1}
+        m_Name: Cone_transform_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: sphare_transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 90, y: 0, z: 0}
+        m_Name: Cone_transform_angles
         m_Overridden: 1
     m_Vector4f:
       m_Array: []
@@ -610,9 +620,25 @@ VisualEffect:
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: New SkinnedMeshRenderer
+        m_Overridden: 1
     m_Bool:
       m_Array: []
+--- !u!114 &1748248393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748248389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0484953dd9a5d9d4096dd97dc69ffa10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxComponent: {fileID: 1748248392}
 --- !u!1001 &1864134555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -780,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 0
-  m_FollowOffset: {x: 0, y: 5, z: -1}
+  m_FollowOffset: {x: 0, y: 5, z: -10}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -908,7 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 0
-  m_FollowOffset: {x: 0, y: 5, z: -1}
+  m_FollowOffset: {x: 0, y: 5, z: -10}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1812,7 +1838,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6790976471649169474}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06680922, y: 4.8532434e-25, z: -2.143647e-25, w: 0.9977658}
+  m_LocalRotation: {x: 0.020956382, y: 0.000000013892656, z: -0.0000000053888307,
+    w: 0.9997804}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2203,7 +2230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5060632859091053400}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08489921, y: 5.264123e-16, z: -2.440201e-16, w: 0.9963895}
+  m_LocalRotation: {x: 0.039090794, y: 0.000000013792612, z: -0.000000005639984, w: 0.99923563}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2758,8 +2785,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7296242832340707837}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2390545, y: 0.000000032353938, z: -0.000000007965298, w: 0.9710062}
-  m_LocalPosition: {x: 82.33, y: 120.97884, z: 41.20755}
+  m_LocalRotation: {x: 0.1942481, y: 0.00000003268536, z: -0.000000006472351, w: 0.9809525}
+  m_LocalPosition: {x: 82.33, y: 123.29, z: 35.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3162,7 +3189,7 @@ Transform:
   m_GameObject: {fileID: 5160546865654539611}
   serializedVersion: 2
   m_LocalRotation: {x: 0.17364822, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 82.33, y: 123.29, z: 44.54}
+  m_LocalPosition: {x: 82.33, y: 123.29, z: 35.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3296,11 +3323,11 @@ MonoBehaviour:
   m_SplineCurvature: 0.2
   m_Orbits:
   - m_Height: 5
-    m_Radius: 1
+    m_Radius: 10
   - m_Height: 1
-    m_Radius: 4
+    m_Radius: 10
   - m_Height: 0
-    m_Radius: 5
+    m_Radius: 10
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 6790976471649169475}
@@ -3318,6 +3345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7552f6028330444c9ea84b8ef008a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zoomSpeed: 1
+  minZoom: 2
+  maxZoom: 10
 --- !u!1 &6149398154310475246
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,7 +3989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010022665513083104}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.103008896, y: -0.00000003145038, z: 0.000000015279943, w: 0.9946804}
+  m_LocalRotation: {x: 0.057259947, y: 0.000000013687739, z: -0.000000005889931, w: 0.9983593}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

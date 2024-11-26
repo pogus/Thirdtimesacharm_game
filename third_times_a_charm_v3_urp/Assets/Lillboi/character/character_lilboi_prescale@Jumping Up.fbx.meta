@@ -44,14 +44,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -381,7 +381,8 @@ ModelImporter:
     - name: Hand.L
       parentName: Arm2.L
       position: {x: -5.9371813e-10, y: 0.0040556947, z: -4.4703483e-10}
-      rotation: {x: 0.000000044675197, y: -0.00000020858798, z: 0.0000000020882092, w: 1}
+      rotation: {x: 0.000000044675197, y: -0.00000020858798, z: 0.0000000020882092,
+        w: 1}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Hand.L_end
       parentName: Hand.L
@@ -406,7 +407,8 @@ ModelImporter:
     - name: Hand.R
       parentName: Arm2.R
       position: {x: 1.6065314e-10, y: 0.004055696, z: 3.7252902e-11}
-      rotation: {x: 0.000000044205645, y: 0.00000021169063, z: -0.000000008789364, w: 1}
+      rotation: {x: 0.000000044205645, y: 0.00000021169063, z: -0.000000008789364,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Hand.R_end
       parentName: Hand.R
@@ -490,7 +492,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: eed6aace5434787458bf128d2cc66177, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: eed6aace5434787458bf128d2cc66177,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1

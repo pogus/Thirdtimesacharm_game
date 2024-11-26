@@ -107,6 +107,9 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
+  - 0f2eecd31abd7c04a83fcced4bffa685
+  - 2b0cb68076a08fa489af7e7e56e26a47
+  - 8cbca164d69b6b24096ab4570d7bd904
   - 016c577a45efed448bfde343e4e0f209
   - b1b79bdf1f4d4ca4eb036508f6643c66
   - 5e027c67913ebed49bebcb27e4153e3d
@@ -387,7 +390,8 @@ ModelImporter:
     - name: Hand.L
       parentName: Arm2.L
       position: {x: -5.9371813e-10, y: 0.0040556947, z: -4.4703483e-10}
-      rotation: {x: 0.000000044675197, y: -0.00000020858798, z: 0.0000000020882092, w: 1}
+      rotation: {x: 0.000000044675197, y: -0.00000020858798, z: 0.0000000020882092,
+        w: 1}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Hand.L_end
       parentName: Hand.L
@@ -412,7 +416,8 @@ ModelImporter:
     - name: Hand.R
       parentName: Arm2.R
       position: {x: 1.6065314e-10, y: 0.004055696, z: 3.7252902e-11}
-      rotation: {x: 0.000000044205645, y: 0.00000021169063, z: -0.000000008789364, w: 1}
+      rotation: {x: 0.000000044205645, y: 0.00000021169063, z: -0.000000008789364,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Hand.R_end
       parentName: Hand.R

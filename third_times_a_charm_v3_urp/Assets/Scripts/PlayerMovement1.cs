@@ -147,10 +147,20 @@ public class PlayerMovement : MonoBehaviour
         // When not grounded, apply movement in the air with horizontal jump speed
         if (!isGrounded)
         {
-            Vector3 velocity = movementDirection * inputMagnitude * jumpHorizontalSpeed* currentSpeed*50;
+            Vector3 velocity = movementDirection * inputMagnitude * jumpHorizontalSpeed * currentSpeed * 50;
             velocity.y = ySpeed;
 
             characterController.Move(velocity * Time.deltaTime);
+        }
+
+        // Handle "2h_attack" animation
+        if (Input.GetKey(KeyCode.E))
+        {
+            animator.SetBool("2h_attack", true); // Trigger animation
+        }
+        else
+        {
+            animator.SetBool("2h_attack", false); // Reset animation
         }
     }
 
@@ -182,6 +192,7 @@ public class PlayerMovement : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
     }
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         var rigidBody = hit.collider.attachedRigidbody;
