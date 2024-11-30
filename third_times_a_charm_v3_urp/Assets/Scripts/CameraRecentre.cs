@@ -10,7 +10,7 @@ public class CameraRecentre : MonoBehaviour
     // Zoom variables
     [SerializeField] private float zoomSpeed = 1f;  // Speed of zoom adjustment
     [SerializeField] private float minZoom = 2f;   // Minimum zoom (closest)
-    [SerializeField] private float maxZoom = 10f;  // Maximum zoom (farthest)
+    [SerializeField] private float maxZoom = 100f;  // Maximum zoom (farthest)
 
     // Start is called before the first frame update
     void Start()
