@@ -145,6 +145,7 @@ Material:
     m_Floats:
     - Boolean_8f755de89e184da894125981c4c0ba78: 0
     - Depth_Fade: 35
+    - Noise_Scale: 0.15
     - Smooth: 0.612
     - Speed: 0.14
     - Vector1_2212E733: 40
@@ -164,6 +165,8 @@ Material:
     - Vector1_a1303d1858b74dc3808d8b7858823843: -11.1
     - Vector1_b477c45853f247c4b3ec903cfac6b438: 20
     - Vector1_c892da3e47c54e8a865a0935bf75ad0a: 0.36
+    - Water_Height: 1.16
+    - Water_Scroll_Speed: 0.51
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaCutoffEnable: 1
@@ -282,6 +285,10 @@ Material:
     - heightoffset: -2.92
     - scale: 1.49
     - sin_freq: 9.72
+    - wave_density: 10
+    - wave_height: 0.3
+    - wave_speed: 0.005
+    - wave_strength: 0.002
     m_Colors:
     - Color_07d66dbf459a427290c7b0403283d67f: {r: 1, g: 1, b: 1, a: 1}
     - Color_27D4D743: {r: 0.2735849, g: 0.8226658, b: 1, a: 0}
@@ -305,6 +312,7 @@ Material:
     - _WaterColor: {r: 0.4926471, g: 0.6011156, b: 1, a: 1}
     - _wave_direction: {r: 1, g: 1, b: 0, a: 0}
     - _wave_direction_1: {r: 0.7, g: 0.7, b: 0, a: 0}
+    - wave_direction: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2039129046854816734
 MonoBehaviour:
