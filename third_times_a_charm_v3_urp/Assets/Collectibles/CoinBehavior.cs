@@ -40,8 +40,6 @@ public class CoinBehavior : MonoBehaviour
                 if (audioSource != null)
                 {
                     audioSource.Play();
-                    Debug.Log("played");
-
                 }
             }
             Destroy(gameObject);

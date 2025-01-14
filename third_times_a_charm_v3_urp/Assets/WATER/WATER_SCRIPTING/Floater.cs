@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Floater : MonoBehaviour
 {
-    public Rigidbody rigidbody;
+    public Rigidbody rigidbody123;
     public float depthBeforeSubmerged = 1f;
     public float displacementAmount = 3f;
     public int floaterCount = 1;
@@ -13,7 +13,7 @@ public class Floater : MonoBehaviour
     private void FixedUpdate()
     {
         // Apply gravity
-        rigidbody.AddForceAtPosition(Physics.gravity / floaterCount, transform.position, ForceMode.Acceleration);
+        rigidbody123.AddForceAtPosition(Physics.gravity / floaterCount, transform.position, ForceMode.Acceleration);
 
         // Get the wave height vector at the current position, including X, Y, Z adjustments
         Vector3 waveHeightVector = WaveManager.instance.GetWaveHeightVector(transform.position);
@@ -28,15 +28,15 @@ public class Floater : MonoBehaviour
 
             // Apply upward buoyancy force with displacement multiplier, adjusting for the Y-axis wave height
             Vector3 buoyancyForce = new Vector3(0f, Mathf.Abs(Physics.gravity.y) * displacementMultiplier, 0f);
-            rigidbody.AddForceAtPosition(buoyancyForce, transform.position, ForceMode.Acceleration);
+            rigidbody123.AddForceAtPosition(buoyancyForce, transform.position, ForceMode.Acceleration);
 
             // Apply horizontal adjustments based on the wave offset on the X and Z axes
             Vector3 horizontalWaveForce = new Vector3(waveHeightVector.x, 0f, waveHeightVector.z) * displacementMultiplier*10;
-            rigidbody.AddForce(horizontalWaveForce, ForceMode.Acceleration);
+            rigidbody123.AddForce(horizontalWaveForce, ForceMode.Acceleration);
 
             // Apply water drag to reduce velocity and angular velocity over time
-            rigidbody.AddForce(displacementMultiplier * -rigidbody.velocity * waterDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
-            rigidbody.AddTorque(displacementMultiplier * -rigidbody.angularVelocity * waterAngularDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            rigidbody123.AddForce(displacementMultiplier * -rigidbody123.velocity * waterDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            rigidbody123.AddTorque(displacementMultiplier * -rigidbody123.angularVelocity * waterAngularDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
         }
     }
 }

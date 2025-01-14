@@ -6,6 +6,7 @@ public class BoatController : MonoBehaviour
     public GameObject player; // Reference to the player object
     public GameObject interactionIcon; // The icon that says "Press K to enter"
     public Transform wheel; // Reference to the boat's wheel
+    public GameObject[] boatParts; // Array of boat parts to check
     public float rotationSpeed = 10f; // Speed at which the wheel rotates
     public float boatSpeed = 5f; // Base speed of the boat
     public float reverseSpeed = 2f; // Speed at which the boat reverses
@@ -50,8 +51,19 @@ public class BoatController : MonoBehaviour
 
     void Update()
     {
+        // Check if all boat parts are active
+        bool allPartsActive = true;
+        foreach (GameObject part in boatParts)
+        {
+            if (part != null && !part.activeSelf)
+            {
+                allPartsActive = false;
+                break;
+            }
+        }
+
         // Check player distance to the wheel
-        if (player != null && wheel != null)
+        if (player != null && wheel != null && allPartsActive)
         {
             float distanceToWheel = Vector3.Distance(player.transform.position, wheel.position);
 
