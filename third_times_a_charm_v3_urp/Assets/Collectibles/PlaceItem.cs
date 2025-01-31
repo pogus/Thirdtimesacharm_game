@@ -10,9 +10,23 @@ public class PlaceItem : MonoBehaviour
 
     private GameObject[] inventorySlots;
     private bool isPlayerNearby = false;
-
     void Start()
     {
+        // If inventoryUI is not assigned, try to find it dynamically
+        if (inventoryUI == null)
+        {
+            GameObject inventoryPanel = GameObject.Find("InventoryUI"); // Change "InventoryUI" to match your actual object name
+            if (inventoryPanel != null)
+            {
+                inventoryUI = inventoryPanel.transform;
+            }
+            else
+            {
+                Debug.LogError("InventoryUI not found in the scene! Assign it manually in the inspector.");
+                return;
+            }
+        }
+
         // Fetch all inventory spaces under the inventoryUI parent dynamically
         inventorySlots = GetInventorySlots();
     }

@@ -44,6 +44,20 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         characterController = GetComponent<CharacterController>();
         originalStepOffset = characterController.stepOffset;
+
+        // Automatically find the main camera
+        if (cameraTransform == null)
+        {
+            Camera mainCamera = Camera.main;
+            if (mainCamera != null)
+            {
+                cameraTransform = mainCamera.transform;
+            }
+            else
+            {
+                Debug.LogError("Main Camera not found! Make sure your scene has a camera tagged as 'MainCamera'.");
+            }
+        }
     }
 
     // Update is called once per frame
