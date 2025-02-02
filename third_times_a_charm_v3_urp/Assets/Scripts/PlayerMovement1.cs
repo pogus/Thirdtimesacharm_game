@@ -45,24 +45,34 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         originalStepOffset = characterController.stepOffset;
 
-        // Automatically find the main camera
-        if (cameraTransform == null)
+        AssignCamera();
+    }
+
+    void AssignCamera()
+    {
+        Camera mainCamera = Camera.main;
+        if (mainCamera != null)
         {
-            Camera mainCamera = Camera.main;
-            if (mainCamera != null)
-            {
-                cameraTransform = mainCamera.transform;
-            }
-            else
-            {
-                Debug.LogError("Main Camera not found! Make sure your scene has a camera tagged as 'MainCamera'.");
-            }
+            //mainCamera = FindMainCamera();
+            cameraTransform = mainCamera.transform;
+        }
+        else
+        {
+            Debug.LogError("Main Camera not found! Ensure your scene has a camera tagged as 'MainCamera'.");
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        // Ensure camera is assigned before using it
+        if (cameraTransform == null)
+        {
+            AssignCamera();
+            if (cameraTransform == null) return; // Avoid errors if no camera found
+        }
+
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
@@ -176,6 +186,17 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("2h_attack", false); // Reset animation
         }
+    }
+
+    private Camera FindMainCamera()
+    {
+        // Find the main camera in the scene dynamically
+        GameObject camObj = GameObject.FindWithTag("MainCamera"); // Ensure the camera prefab has the correct tag
+        if (camObj != null)
+        {
+            return camObj.GetComponent<Camera>();
+        }
+        return null;
     }
 
     // Move character when grounded, applying movement speed

@@ -3,31 +3,17 @@ using UnityEngine;
 
 public class PlaceItem : MonoBehaviour
 {
-    public Transform inventoryUI; // The parent object containing all inventory spaces
+    private Transform inventoryUI; // Automatically assigned at runtime
     public string requiredItemName; // The name/type of the required item
     public GameObject greyedOutObject; // Greyed-out placeholder object
     public GameObject placedObject; // Fully visible placed object
 
     private GameObject[] inventorySlots;
     private bool isPlayerNearby = false;
+
     void Start()
     {
-        // If inventoryUI is not assigned, try to find it dynamically
-        if (inventoryUI == null)
-        {
-            GameObject inventoryPanel = GameObject.Find("InventoryUI"); // Change "InventoryUI" to match your actual object name
-            if (inventoryPanel != null)
-            {
-                inventoryUI = inventoryPanel.transform;
-            }
-            else
-            {
-                Debug.LogError("InventoryUI not found in the scene! Assign it manually in the inspector.");
-                return;
-            }
-        }
-
-        // Fetch all inventory spaces under the inventoryUI parent dynamically
+        AssignInventoryUI();
         inventorySlots = GetInventorySlots();
     }
 
@@ -39,18 +25,46 @@ public class PlaceItem : MonoBehaviour
         }
     }
 
+    void AssignInventoryUI()
+    {
+        if (inventoryUI == null)
+        {
+            Canvas canvas = FindObjectOfType<Canvas>(); // Look for an active Canvas
+            if (canvas != null)
+            {
+                Transform foundInventory = canvas.transform.Find("InventoryUI");
+                if (foundInventory != null)
+                {
+                    inventoryUI = foundInventory;
+                    Debug.Log("InventoryUI automatically assigned.");
+                }
+                else
+                {
+                    Debug.LogError("InventoryUI object not found in the Canvas! Ensure it exists in the hierarchy.");
+                }
+            }
+            else
+            {
+                Debug.LogError("No Canvas found in the scene! Inventory UI assignment failed.");
+            }
+        }
+    }
+
     void Place()
     {
-        // Check if inventory contains the required item
+        if (inventorySlots == null || inventorySlots.Length == 0)
+        {
+            Debug.LogError("No inventory slots found!");
+            return;
+        }
+
         foreach (GameObject slot in inventorySlots)
         {
-            if (slot.activeSelf && slot.name == requiredItemName) // Slot is active and matches the item
+            if (slot.activeSelf && slot.name == requiredItemName)
             {
-                // Remove the item from the inventory
                 slot.SetActive(false);
-                slot.name = ""; // Clear the slot's name
+                slot.name = "";
 
-                // Replace the greyed-out object with the placed object
                 if (greyedOutObject != null)
                     greyedOutObject.SetActive(false);
 
@@ -67,10 +81,16 @@ public class PlaceItem : MonoBehaviour
 
     private GameObject[] GetInventorySlots()
     {
-        // Fetch all child objects under the inventoryUI Transform
-        Transform[] slotTransforms = inventoryUI.GetComponentsInChildren<Transform>(true);
-        // Filter only the inventory slots and convert them to GameObjects
-        return System.Array.FindAll(slotTransforms, t => t != inventoryUI).Select(t => t.gameObject).ToArray();
+        if (inventoryUI == null)
+        {
+            Debug.LogError("InventoryUI is not assigned! Cannot fetch inventory slots.");
+            return new GameObject[0];
+        }
+
+        return inventoryUI.GetComponentsInChildren<Transform>(true)
+            .Where(t => t != inventoryUI)
+            .Select(t => t.gameObject)
+            .ToArray();
     }
 
     private void OnTriggerEnter(Collider other)

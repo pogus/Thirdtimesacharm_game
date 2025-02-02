@@ -24,7 +24,4 @@ public class MainMenyDisplay : MonoBehaviour
         NetworkManager.Singleton.StartClient();
 
     }
-
-
-
 }

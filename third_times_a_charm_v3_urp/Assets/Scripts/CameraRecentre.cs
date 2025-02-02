@@ -6,6 +6,7 @@ using Cinemachine;
 public class CameraRecentre : MonoBehaviour
 {
     private CinemachineFreeLook Camera;
+    private Transform playerTransform;
 
     // Zoom variables
     [SerializeField] private float zoomSpeed = 1f;  // Speed of zoom adjustment
@@ -16,6 +17,36 @@ public class CameraRecentre : MonoBehaviour
     void Start()
     {
         Camera = GetComponent<CinemachineFreeLook>();
+        FindAndAssignPlayer();
+    }
+
+    void FindAndAssignPlayer()
+    {
+        // Find the player dynamically (Ensure the player has the tag "Player")
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null)
+        {
+            playerTransform = playerObj.transform;
+            AssignPlayerToCamera();
+        }
+        else
+        {
+            Debug.LogError("Player not found! Make sure the player prefab is spawned and has the 'Player' tag.");
+        }
+    }
+
+    void AssignPlayerToCamera()
+    {
+        if (Camera != null && playerTransform != null)
+        {
+            Camera.Follow = playerTransform;
+            Camera.LookAt = playerTransform;
+
+            // Make sure each orbit (Top, Middle, Bottom Rig) is looking at the player
+            Camera.m_Orbits[0].m_Height = Camera.m_Orbits[0].m_Height; // Keep current height (Top Rig)
+            Camera.m_Orbits[1].m_Height = Camera.m_Orbits[1].m_Height; // Keep current height (Middle Rig)
+            Camera.m_Orbits[2].m_Height = Camera.m_Orbits[2].m_Height; // Keep current height (Bottom Rig)
+        }
     }
 
     // Update is called once per frame

@@ -25,12 +25,24 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
-        // Initialize the score display
         if (scoreText == null)
         {
-            scoreText = GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>();
+            // Search for ScoreText inside ScoreCanvas dynamically
+            GameObject scoreCanvas = GameObject.Find("ScoreCanvas");
+            if (scoreCanvas != null)
+            {
+                scoreText = scoreCanvas.transform.Find("ScoreText")?.GetComponent<TextMeshProUGUI>();
+            }
         }
-        UpdateScoreText();
+
+        if (scoreText == null)
+        {
+            Debug.LogError("ScoreText not found! Make sure it exists in the scene under ScoreCanvas.");
+        }
+        else
+        {
+            UpdateScoreText();
+        }
     }
 
     public void AddScore(int value)

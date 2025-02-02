@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class PickupItem : MonoBehaviour
 {
-    public Transform inventoryUI; // The parent object containing all inventory spaces
+    private Transform inventoryUI; // Automatically assigned at runtime
     public ItemData itemData; // Reference to the ItemData ScriptableObject containing the Texture2D
 
     private GameObject[] inventorySlots;
@@ -12,22 +12,7 @@ public class PickupItem : MonoBehaviour
 
     void Start()
     {
-        // If inventoryUI is not assigned, try to find it dynamically
-        if (inventoryUI == null)
-        {
-            GameObject inventoryPanel = GameObject.Find("InventoryUI"); // Change "InventoryUI" to match the actual object name
-            if (inventoryPanel != null)
-            {
-                inventoryUI = inventoryPanel.transform;
-            }
-            else
-            {
-                Debug.LogError("InventoryUI not found in the scene! Assign it manually in the inspector.");
-                return;
-            }
-        }
-
-        // Fetch all inventory spaces under the inventoryUI parent dynamically
+        AssignInventoryUI();
         inventorySlots = GetInventorySlots();
     }
 
@@ -39,24 +24,56 @@ public class PickupItem : MonoBehaviour
         }
     }
 
+    void AssignInventoryUI()
+    {
+        if (inventoryUI == null)
+        {
+            Canvas canvas = FindObjectOfType<Canvas>(); // Look for an active Canvas
+            if (canvas != null)
+            {
+                Transform foundInventory = canvas.transform.Find("InventoryUI");
+                if (foundInventory != null)
+                {
+                    inventoryUI = foundInventory;
+                    Debug.Log("InventoryUI automatically assigned.");
+                }
+                else
+                {
+                    Debug.LogError("InventoryUI object not found in the Canvas! Ensure it exists in the hierarchy.");
+                }
+            }
+            else
+            {
+                Debug.LogError("No Canvas found in the scene! Inventory UI assignment failed.");
+            }
+        }
+    }
+
     void PickUp()
     {
-        // Find the first available inventory slot
+        if (inventorySlots == null || inventorySlots.Length == 0)
+        {
+            Debug.LogError("No inventory slots found!");
+            return;
+        }
+
         foreach (GameObject slot in inventorySlots)
         {
-            if (!slot.activeSelf) // If slot is inactive, it's available
+            if (!slot.activeSelf)
             {
-                slot.SetActive(true); // Activate the inventory slot
-                slot.name = itemData.name; // Assign the item's name to the slot
+                slot.SetActive(true);
+                slot.name = itemData.name;
 
-                // Assign the Texture2D from ItemData to the slot's Image component
                 if (itemData.itemImage != null)
                 {
                     Image slotImage = slot.GetComponent<Image>();
                     if (slotImage != null)
                     {
-                        slotImage.sprite = Sprite.Create(itemData.itemImage, new Rect(0, 0, itemData.itemImage.width, itemData.itemImage.height), new Vector2(0.5f, 0.5f));
-                        Debug.Log($"Successfully updated image for {itemData.name} in {slot.name}");
+                        slotImage.sprite = Sprite.Create(
+                            itemData.itemImage,
+                            new Rect(0, 0, itemData.itemImage.width, itemData.itemImage.height),
+                            new Vector2(0.5f, 0.5f)
+                        );
                     }
                     else
                     {
@@ -68,7 +85,7 @@ public class PickupItem : MonoBehaviour
                     Debug.LogWarning($"No Texture2D found for item {itemData.name}");
                 }
 
-                gameObject.SetActive(false); // Hide the item in the scene
+                gameObject.SetActive(false);
                 Debug.Log($"{itemData.name} added to inventory!");
                 return;
             }
@@ -79,10 +96,16 @@ public class PickupItem : MonoBehaviour
 
     private GameObject[] GetInventorySlots()
     {
-        // Fetch all child objects under the inventoryUI Transform
-        Transform[] slotTransforms = inventoryUI.GetComponentsInChildren<Transform>(true);
-        // Filter only the inventory slots and convert them to GameObjects
-        return System.Array.FindAll(slotTransforms, t => t != inventoryUI).Select(t => t.gameObject).ToArray();
+        if (inventoryUI == null)
+        {
+            Debug.LogError("InventoryUI is not assigned! Cannot fetch inventory slots.");
+            return new GameObject[0];
+        }
+
+        return inventoryUI.GetComponentsInChildren<Transform>(true)
+            .Where(t => t != inventoryUI)
+            .Select(t => t.gameObject)
+            .ToArray();
     }
 
     private void OnTriggerEnter(Collider other)
