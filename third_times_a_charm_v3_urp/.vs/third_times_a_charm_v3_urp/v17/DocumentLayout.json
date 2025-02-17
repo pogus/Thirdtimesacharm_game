@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|c:\\users\\pontu\\documents\\github\\thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\networkplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\networkplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|c:\\users\\pontu\\documents\\github\\thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\mainmenydisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenydisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\playermovement1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\placeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\placeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\camerarecentre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerarecentre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|c:\\users\\pontu\\documents\\github\\thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\playermovement1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\networkplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\networkplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\mainmenydisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenydisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\playercameraidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\playercameraidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\skyboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\skyboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\boatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +39,28 @@
       "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\coinbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\water\\water_scripting\\floater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\water\\water_scripting\\floater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|c:\\users\\pontu\\documents\\github\\thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\inventorytoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\inventorytoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\throw_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\throw_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\placeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\placeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\collectibles\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\collectibles\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\send_electricty_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\send_electricty_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\floatinggg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\floatinggg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\skyboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\skyboxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\water\\simplewater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\water\\simplewater.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\scripts\\send_electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\send_electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\assets\\throw_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24EF99-20F2-225F-AAAB-DA0FCDCA6ABC}|Assembly-CSharp.csproj|solutionrelative:assets\\throw_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\InventoryToggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,49 +74,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "InventoryToggle.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\InventoryToggle.cs",
+              "RelativeDocumentMoniker": "Assets\\Collectibles\\InventoryToggle.cs",
+              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\InventoryToggle.cs",
+              "RelativeToolTip": "Assets\\Collectibles\\InventoryToggle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:28:11.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NetworkPlayer.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\NetworkPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\NetworkPlayer.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\NetworkPlayer.cs",
               "RelativeToolTip": "Assets\\NetworkPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T20:10:05.503Z",
+              "WhenOpened": "2025-02-08T18:26:06.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainMenyDisplay.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\MainMenyDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenyDisplay.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\MainMenyDisplay.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenyDisplay.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T20:52:30.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "floatinggg.cs",
-              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\floatinggg.cs",
-              "RelativeDocumentMoniker": "Assets\\floatinggg.cs",
-              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\floatinggg.cs",
-              "RelativeToolTip": "Assets\\floatinggg.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement1.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\PlayerMovement1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement1.cs",
+              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\PlayerMovement1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement1.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwFAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:07:14.959Z"
+              "WhenOpened": "2024-11-24T13:18:37.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "PlayerCameraIdentifier.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\PlayerCameraIdentifier.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerCameraIdentifier.cs",
+              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\PlayerCameraIdentifier.cs",
+              "RelativeToolTip": "Assets\\PlayerCameraIdentifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:20:23.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SEND_ELECTRICTY_R.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\SEND_ELECTRICTY_R.cs",
               "RelativeDocumentMoniker": "Assets\\SEND_ELECTRICTY_R.cs",
@@ -128,11 +151,12 @@
               "RelativeToolTip": "Assets\\SEND_ELECTRICTY_R.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T21:37:03.121Z"
+              "WhenOpened": "2024-11-30T21:37:03.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "throw_ice.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\throw_ice.cs",
               "RelativeDocumentMoniker": "Assets\\throw_ice.cs",
@@ -140,7 +164,8 @@
               "RelativeToolTip": "Assets\\throw_ice.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:20:34.496Z"
+              "WhenOpened": "2024-11-28T16:20:34.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -156,40 +181,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CameraRecentre.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\CameraRecentre.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraRecentre.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\CameraRecentre.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraRecentre.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDoAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:38:41.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement1.cs",
-              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\PlayerMovement1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement1.cs",
-              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Scripts\\PlayerMovement1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement1.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:18:37.871Z",
+              "WhenOpened": "2024-11-26T18:38:41.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "skyboxmanager.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\skyboxmanager.cs",
               "RelativeDocumentMoniker": "Assets\\skyboxmanager.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\skyboxmanager.cs",
               "RelativeToolTip": "Assets\\skyboxmanager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T22:51:44.585Z"
+              "WhenOpened": "2024-12-06T22:51:44.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,9 +213,23 @@
               "RelativeDocumentMoniker": "Assets\\BoatController.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\BoatController.cs",
               "RelativeToolTip": "Assets\\BoatController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKQAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:53:02.056Z"
+              "WhenOpened": "2024-12-15T13:53:02.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Collectibles\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Collectibles\\ScoreManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:00:53.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,73 +239,40 @@
               "RelativeDocumentMoniker": "Assets\\Collectibles\\CoinBehavior.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\CoinBehavior.cs",
               "RelativeToolTip": "Assets\\Collectibles\\CoinBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T18:52:41.227Z"
+              "WhenOpened": "2025-01-12T18:52:41.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SIMPLEWATER.shader",
-              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\WATER\\SIMPLEWATER.shader",
-              "RelativeDocumentMoniker": "Assets\\WATER\\SIMPLEWATER.shader",
-              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\WATER\\SIMPLEWATER.shader",
-              "RelativeToolTip": "Assets\\WATER\\SIMPLEWATER.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-24T14:03:28.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Collectibles\\ScoreManager.cs",
-              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Collectibles\\ScoreManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T19:00:53.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Floater.cs",
-              "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\WATER\\WATER_SCRIPTING\\Floater.cs",
-              "RelativeDocumentMoniker": "Assets\\WATER\\WATER_SCRIPTING\\Floater.cs",
-              "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\WATER\\WATER_SCRIPTING\\Floater.cs",
-              "RelativeToolTip": "Assets\\WATER\\WATER_SCRIPTING\\Floater.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T18:55:05.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PlaceItem.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\PlaceItem.cs",
               "RelativeDocumentMoniker": "Assets\\Collectibles\\PlaceItem.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\PlaceItem.cs",
               "RelativeToolTip": "Assets\\Collectibles\\PlaceItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T19:29:23.063Z"
+              "WhenOpened": "2025-01-14T19:29:23.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "PickupItem.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\PickupItem.cs",
               "RelativeDocumentMoniker": "Assets\\Collectibles\\PickupItem.cs",
               "ToolTip": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\Collectibles\\PickupItem.cs",
               "RelativeToolTip": "Assets\\Collectibles\\PickupItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T22:09:23.869Z"
+              "WhenOpened": "2025-01-13T22:09:23.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "InventoryToggle.cs",
               "DocumentMoniker": "C:\\Users\\pontu\\Documents\\GitHub\\Thirdtimesacharm_game\\third_times_a_charm_v3_urp\\Assets\\InventoryToggle.cs",
               "RelativeDocumentMoniker": "Assets\\InventoryToggle.cs",
